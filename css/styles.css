@@ -56,12 +56,21 @@ ul, ol{
 }
 
 .page-nav{
-
+    display: flex;
+    align-items: center;
+    margin-right: 76px
 }
 
 .page-list{
-display: flex;
-gap: 24px;
+    display: flex;
+    align-items: center;
+    gap: 40px
+}
+
+.page-link{
+    display: flex;
+    align-items: center;
+    margin-right: 40px
 }
 
 .page-menu-link:hover,
@@ -107,6 +116,12 @@ gap: 24px;
 
 .page-address{
     font-style: normal;
+}
+
+.page-link-address{
+        display: flex;
+        align-items: center;
+        margin-right: 150px
 }
 
 .page-address-link{
@@ -285,9 +300,7 @@ gap: 24px;
     background: #2e2f42;
 }
 
-.footer{
-    width: 1158px;
-    padding-right: 156px;  
+.footer{  
     padding-top: 100px;
     padding-bottom: 100px;
     margin: 0 auto;
