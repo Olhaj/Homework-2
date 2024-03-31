@@ -4,16 +4,56 @@ body{
     color: #434455;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 a{
     text-decoration: none;
 }
 
 ul, ol{
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+    
+
+.container{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 /*-----------NAV----------------*/
 
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #;
+}
 .page-nav{
 
 }
@@ -75,9 +115,15 @@ ul, ol{
 /*--------main-button-------------*/
 
 .section-main{
-    background: #2e2f42;
 }
 
+.main-content{
+    background: #2e2f42;
+    padding-top: 188px;
+    padding-left: 472px;
+    padding-bottom: 292px;
+    padding-right: 472px;
+}
 .page-main-title{
     font-weight: 700;
     font-size: 56px;
@@ -94,7 +140,10 @@ ul, ol{
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    text-align: center;
     background: #4d5ae5;
+    border-radius: 4px;
+    padding: 16px 32px;
 }
 
 .page-btn-main:hover,
@@ -107,6 +156,11 @@ ul, ol{
 
 .page-foto-link {
     background-color: #FFFFFF;
+}
+
+.section-info{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .section-title{
@@ -123,6 +177,7 @@ ul, ol{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-top: 8px;
 }
 
 /*-------------------------------------*/
@@ -132,6 +187,10 @@ ul, ol{
 
 }
 
+.section-foto{
+    padding-top: 120px;
+    padding-bottom: 540px;
+}
 .page-section-title{
     font-weight: 700;
     font-size: 36px;
@@ -163,6 +222,11 @@ ul, ol{
 
 .page-section{
     background-color: #F4F4FD;
+}
+
+.section-portfolio{
+    padding-top: 120px;
+    padding-bottom: 1080px;
 }
 .page-section-title{
     font-weight: 700;
@@ -197,16 +261,23 @@ ul, ol{
 /*------------------------------------------*/
 /*------------------------Footer-----------*/
 
+.page-footer {
+    background: #2e2f42;
+}
+
+.footer{
+    width: 1158px;
+    padding-right: 156px;  
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
 .page-footer-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-}
-
-.page-footer{
-    background: #2e2f42;
 }
 
 .page-footer-studio{
