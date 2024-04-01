@@ -2,6 +2,7 @@ body{
     font-family: "Roboto", sans-serif;
     background-color: #fff;
     color: #434455;
+    display: block;
 }
 
 p,
@@ -60,6 +61,11 @@ ul, ol{
     display: flex;
 }
 
+.page-nav{
+    display: flex;
+    align-items: center;
+}
+
 .page-list{
     display: flex;
     align-items: center;
@@ -69,7 +75,7 @@ ul, ol{
 .page-link{
     display: flex;
     align-items: center;
-    margin-right: 40px
+    margin-right: 76px;
 }
 
 .page-menu-link:hover,
@@ -120,7 +126,9 @@ ul, ol{
 .page-list-address{
     display: flex;
     align-items: center;
-    margin-right: 150px
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 40px;
 }
 
 .page-address-link{
@@ -134,23 +142,22 @@ ul, ol{
 /*--------main-button-------------*/
 
 .section-main{
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background: #2e2f42;
 }
 
-.main-content{
-    background: #2e2f42;
-    padding-top: 188px;
-    padding-left: 472px;
-    padding-bottom: 292px;
-    padding-right: 472px;
+.main-container{
+    max-width: 496px;
 }
 .page-main-title{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
     padding: 0 auto;
+    text-align: center;
 }
 
 .page-btn-main{
@@ -192,10 +199,12 @@ ul, ol{
 .section-list{
     display: flex;
     gap: 24px;
+    width calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .section-list-link{
-    width calc((100% - 3 * 24px) / 4);
+    margin-right: 24px;
 }
 
 .section-title{
@@ -219,18 +228,24 @@ ul, ol{
 /*-------------------------------------*/
 /*----------------section-foto-----------*/
 
-.page-section-foto{
+.page-section{
     padding-top: 120px;
     padding-bottom: 120px;
+    border-radius: 0px 0px 4px 4px;
 }
 
+.features-container{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .page-foto-list{
     display: flex;
     gap: 24px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .page-foto-link{
-    width: calc((100% - 3 * 24px) / 4);
+    
 }
 
 .page-section-title{
@@ -250,6 +265,7 @@ ul, ol{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .section-text-link{
@@ -267,11 +283,18 @@ ul, ol{
     background-color: #F4F4FD;
 }
 
-.section-portfolio{
+.page-section-portfolio{
     padding-top: 120px;
-    padding-bottom: 540px;
-    border-bottom: 1px solid #e7e9fc;
+    padding-bottom: 120px;
 }
+
+.section-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px
+}
+
 .page-section-title{
     font-weight: 700;
     font-size: 36px;
@@ -286,15 +309,11 @@ ul, ol{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
+    row-gap: 48px;
 }
 
 .page-app-link{
     width: calc((100% - 48px) / 3);
-    padding-bottom: 0;
-    margin-bottom: 48px;
-}
-.page-section-images{
-
 }
 
 .section-title{
@@ -303,6 +322,7 @@ ul, ol{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .section-text{
@@ -311,9 +331,9 @@ ul, ol{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
 }
 
-/*------------------------------------------*/
 /*------------------------Footer-----------*/
 
 .page-footer {
