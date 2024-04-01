@@ -79,8 +79,6 @@ img{
     display: flex;
     align-items: center;
     margin-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .page-menu-link:hover,
@@ -115,9 +113,10 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
-/*-------------------------------*/
 /*-------------address-----------*/
 
 .page-address-link:hover,
