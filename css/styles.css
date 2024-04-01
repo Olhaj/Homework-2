@@ -27,6 +27,10 @@ ul, ol{
     margin-left: 0;
 }
 
+img{
+    display: block;
+}
+
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -40,7 +44,6 @@ ul, ol{
     overflow: hidden;
 }
     
-
 .container{
     width: 1158px;
     padding-left: 15px;
@@ -183,24 +186,19 @@ ul, ol{
     background-color: #404BBF
 }
 
-/*---------------------------------*/
 /*-------------section-features---------*/
-
 
 .page-section{
     padding-top: 120px;
     padding-bottom: 120px;
-}
-
-.page-foto-link {
+    border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
 }
 
 .section-list{
     display: flex;
     gap: 24px;
-    width calc((100% - 3 * 24px) / 4);
-    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .section-list-link{
@@ -266,6 +264,7 @@ ul, ol{
     text-align: center;
     color: #2e2f42;
     margin-bottom: 8px;
+    display: block;
 }
 
 .section-text-link{
