@@ -67,12 +67,12 @@ img{
 .page-nav{
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
 .page-list{
     display: flex;
     align-items: center;
-    gap: 40px;
 }
 
 .page-link{
@@ -127,6 +127,7 @@ img{
     font-style: normal;
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-left: auto;
 }
 
 .page-list-address{
@@ -247,10 +248,12 @@ img{
 .page-foto-list{
     display: flex;
     gap: 24px;
+    padding-left: 0;
+    margin: 0;
 }
 
 .page-foto-link{
-
+    border-radius: 0px 0px 4px 4px;
 }
 
 .page-section-title{
@@ -317,6 +320,8 @@ img{
 
 .page-app-link{
     width: calc((100% - 48px) / 3);
+    padding-left: 0;
+    margin: 0;
 }
 
 .section-title{
