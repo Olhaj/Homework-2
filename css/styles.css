@@ -200,6 +200,7 @@ img{
     gap: 24px;
     border-radius: 0px 0px 4px 4px;
 }
+
 .section-list-link{
     flex-basis: calc((100% - 72px) / 4);
     padding-left: 0;
@@ -226,7 +227,6 @@ img{
     text-align: left;
 }
 
-/*-------------------------------------*/
 /*----------------section-foto-----------*/
 
 .page-section{
@@ -238,6 +238,7 @@ img{
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
 .page-foto-list{
     display: flex;
     gap: 24px;
@@ -255,6 +256,7 @@ img{
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
 .page-section-title{
     font-weight: 700;
     font-size: 36px;
@@ -285,7 +287,6 @@ img{
     text-align: center;
 }
 
-/*---------------------------------------*/
 /*------------------Portfolio--------------*/
 
 .page-section-portfolio{
