@@ -201,6 +201,8 @@ img{
 }
 .section-list-link{
     flex-basis: calc((100% - 72px) / 4));
+    padding-left: 0;
+    margin: 0;
 }
 
 .section-title{
@@ -244,6 +246,8 @@ img{
 .page-foto-link{
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100% - 72px) / 4));
+    padding-left: 0;
+    margin: 0;
 }
 
 .foto{
@@ -316,6 +320,7 @@ img{
 .page-app-link{
     width: calc((100% - 48px) / 3);
     margin: 0;
+    padding-left: 0;
 }
 
 .app{
